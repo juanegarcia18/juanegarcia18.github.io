@@ -42,7 +42,19 @@ p {
   color: #e0e6ed;
   font-size: 1.1rem;
 }
+a {
+  color: #ffb347;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #ffb347;
+}
 @media (max-width: 600px) {
   main { padding: 0 0.5rem; }
   section { padding: 1.2rem 0.7rem; }
+  a { font-size: 1rem; }
 }
