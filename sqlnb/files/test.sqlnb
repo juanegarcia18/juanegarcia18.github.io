@@ -1,0 +1,3 @@
+-- test.sqlnb
+-- This is a sample SQL notebook file in the sqlnb folder.
+SELECT 'Hello from SQLNB!' AS greeting;
